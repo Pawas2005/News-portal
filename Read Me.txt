@@ -1,17 +1,35 @@
-How to run the News Portal Project using PHP and MySql
+NewsPortal Project
+A PHP and MySQL-based news portal for users to view news articles and for admins to manage content.
 
-1. Download the the zip file
-2. Extract the file and copy newsportal folder
-3.Paste inside root directory(for xampp xamp/htdocs, for wampp/www,fpr lamp var/www/html)
-4. Create a database with name newsportal
-5. Import newsportal.sql file(given inside the zip package in sql file folder)
-6.run the script http://localhost/newsportal (frontend)
-7. For admin panel  http://localhost/newsporta/admin
+Getting Started
+Follow these steps to set up and run the NewsPortal project locally.
 
-credential for admin panel :
-usernam: admin
-Password : Test@123
+Prerequisites
+XAMPP/WAMP/LAMP for running PHP and MySQL locally
+Installation
+Download and Extract
+Download the ZIP file of the project and extract it.
 
-credential for Sub-admin panel :
-username: subadmin
-Password : Test@123
+Move Files
+Move the extracted newsportal folder to your web server’s root directory:
+
+For XAMPP: xampp/htdocs
+For WAMP: wamp/www
+For LAMP: var/www/html
+Database Setup
+
+Open PHPMyAdmin and create a new database named newsportal.
+Import the newsportal.sql file from the extracted project folder into this database.
+Run the Application
+
+For the frontend, navigate to: http://localhost/newsportal
+For the admin panel, navigate to: http://localhost/newsportal/admin
+Admin Panel Credentials
+Admin User
+
+Username: admin
+Password: Test@123
+Sub-admin User
+
+Username: subadmin
+Password: Test@123
